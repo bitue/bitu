@@ -17,9 +17,29 @@
 </head>
 
 <body>
-    <div class="min-h-screen flex relative  ">
+    <div class="min-h-screen md:flex relative  ">
+        <!-- mobile menu bar  -->
+        <div class="mobile-menu md:hidden ">
+            <div class="nav flex justify-between items-center">
+                <div class="">
+                    <h1 class="text-3xl font-bold  color-gray-300 px-3 py-2"><a href="index.html">Better <span
+                                class="text-yellow-600"> BituE</span> </a></h1>
+                </div>
+                <div class="menu px-4">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
         <!-- slide bar part  -->
-        <div class="w-64 bg-gray-200 relative">
+        <div class="w-64 bg-gray-200 relative hidden md:block">
             <div class="slider-div ">
                 <!-- pic and des -->
                 <div class="pic-des w-full ">
@@ -102,6 +122,7 @@
         <!-- content part side  -->
         <div class="main-content bg-gray-400 flex-grow ">
             <h1 class="text-5xl bold">content goes here </h1>
+
         </div>
     </div>
     <!-- script of font awesome -->
