@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="min-h-screen md:flex relative  ">
+    <div class=" md:flex min-h-screen  ">
         <!-- mobile menu bar  -->
         <div class="mobile-menu md:hidden ">
             <div class="nav flex justify-between items-center">
@@ -26,7 +26,7 @@
                                 class="text-yellow-600"> BituE</span> </a></h1>
                 </div>
                 <div class="menu px-4">
-                    <button>
+                    <button id="btn">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -39,9 +39,10 @@
 
         </div>
         <!-- slide bar part  -->
-        <div class="w-64 bg-gray-200 relative hidden md:block">
-            <div class="slider-div ">
-                <!-- pic and des -->
+        <div class="w-64 bg-gray-200 absolute inset-y-0 left-0 transform -translate-x-full transition duration-200 ease-in-out md:relative md:translate-x-0   "
+            id="slide">
+            <div class="slider-div  ">
+                <!-- pic and des  logo -->
                 <div class="pic-des w-full ">
                     <div class="img flex items-center justify-center pt-5">
                         <img class="w-3/4  border-gray-400 rounded-full border-8" src="img/b2.jpeg" alt="">
@@ -95,10 +96,10 @@
                 </div>
                 <!-- contact-bar -->
 
-                <div class="links flex justify-evenly items-center absolute bottom-0 left-0 right-0">
+                <div class="links flex justify-evenly items-center pb-10   ">
                     <a
                         class="block px-2 py-2 border-4 rounded-full  hover:rounded-full hover:bg-gray-300 hover:text-red-900">
-                        <i class="far fa-envelope text-2xl"></i>
+                        <i class="  far fa-envelope text-2xl"></i>
                     </a>
                     <a
                         class="block px-2 py-2 border-4 rounded-full  hover:rounded-full hover:bg-gray-300 hover:text-gray-900"><i
@@ -120,13 +121,94 @@
 
         </div>
         <!-- content part side  -->
-        <div class="main-content bg-gray-400 flex-grow ">
+        <div class="main-content bg-gray-400 flex-grow  ">
             <h1 class="text-5xl bold">content goes here </h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit.</p>
+            <p>Quam repellendus voluptas dolore debitis facere! Et, dolorem. Quod, iure?</p>
+            <p>Autem, nemo tenetur. Ea ipsa, id esse error ut tempora.</p>
+            <p>Placeat cumque exercitationem quidem earum natus nihil ad nisi necessitatibus?</p>
+            <p>Obcaecati, expedita sit? Doloribus numquam tenetur illo magnam. Non, possimus!</p>
+            <p>Amet totam fuga dolor distinctio, iure voluptatum. Sequi, laudantium maxime?</p>
+            <p>Possimus odio ex maiores magni architecto nulla aliquid aspernatur dolores.</p>
+            <p>Odit consectetur, nemo maxime nisi eligendi ducimus distinctio esse aut!</p>
+            <p>Repellendus optio amet enim ut magnam autem impedit libero! Vitae!</p>
+            <p>Laboriosam, debitis eveniet! Beatae inventore porro amet voluptas rerum neque.</p>
+            <p>Quis corporis voluptatum at nesciunt repellat nostrum quisquam suscipit. Ex?</p>
+            <p>Minima beatae dolorem maiores neque perspiciatis architecto, doloribus ducimus impedit.</p>
+            <p>Molestias corrupti laboriosam explicabo. Saepe molestias maxime quasi sed delectus.</p>
+            <p>Neque explicabo, harum quas itaque deleniti nisi tenetur cumque architecto?</p>
+            <p>Consectetur quidem corporis quos fuga explicabo blanditiis ipsam quaerat pariatur.</p>
+            <p>Obcaecati possimus sit ea, corporis quas nemo ipsam sapiente exercitationem.</p>
+            <p>Itaque molestias, obcaecati officiis dolor adipisci quasi odit quaerat earum!</p>
+            <p>Beatae adipisci mollitia magnam, ut praesentium quisquam nobis in voluptatum?</p>
+            <p>Sit dolore maxime alias quaerat voluptas vitae excepturi libero ipsum.</p>
+            <p>Modi doloremque impedit dolorem non error minima saepe rerum quod.</p>
+            <p>Expedita accusantium sunt a. Placeat ea ipsam expedita maxime similique.</p>
+            <p>Dolorem perspiciatis ad id at eos ullam tempora odio quibusdam.</p>
+            <p>Incidunt, optio. Doloribus earum laudantium doloremque atque rem debitis nostrum!</p>
+            <p>Eum omnis explicabo sunt! Itaque non quibusdam impedit nulla sit.</p>
+            <p>Alias, numquam laudantium repudiandae itaque impedit quae quisquam officia eius!</p>
+            <p>Rem maxime, qui eos itaque aliquid doloremque tempore architecto totam.</p>
+            <p>Reprehenderit ratione suscipit asperiores recusandae laudantium ut odit. Possimus, perspiciatis.</p>
+            <p>Minima quidem nostrum quasi odio, et maiores officia ab aliquid.</p>
+            <p>Iusto odio deserunt adipisci iste assumenda, magnam magni suscipit accusantium.</p>
+            <p>Quasi aspernatur unde quo amet et praesentium vitae quisquam blanditiis.</p>
+            <p>Libero tenetur omnis, aut explicabo minus neque sint eligendi perferendis!</p>
+            <p>Minus vitae, vero dolor eos magni atque dolore repudiandae a.</p>
+            <p>Reiciendis eum corrupti et earum nam, totam pariatur! Eaque, non?</p>
+            <p>Eos praesentium consequuntur temporibus vero at ratione unde ipsa doloribus.</p>
+            <p>Sapiente, ducimus! Praesentium ex accusamus reprehenderit, sit autem neque corporis!</p>
+            <p>Totam unde consectetur mollitia, reprehenderit iure iusto ad facilis nobis!</p>
+            <p>Placeat enim cupiditate cumque suscipit pariatur dolor quasi odit non!</p>
+            <p>Ducimus expedita doloremque eveniet debitis nemo asperiores tempore ipsum quibusdam!</p>
+            <p>Natus modi eaque ut necessitatibus, eos repudiandae iste nemo optio?</p>
+            <p>Veniam error optio officiis nobis minus neque earum cumque labore?</p>
+            <p>Temporibus tenetur sint vero illo, labore dolores assumenda repudiandae totam.</p>
+            <p>Dolor asperiores ipsa corrupti assumenda architecto itaque dolore esse quibusdam.</p>
+            <p>Sint a officia consequuntur hic pariatur quis nihil ex natus.</p>
+            <p>Nisi praesentium, laborum accusamus ab itaque a. In, placeat illum.</p>
+            <p>Dolore maiores voluptatum nesciunt ipsum quae aliquam, assumenda natus dolorem!</p>
+            <p>Animi aperiam distinctio expedita mollitia architecto nostrum incidunt eum officiis!</p>
+            <p>Eum, consequuntur. Et dignissimos quam, animi maiores voluptatem esse. Maiores.</p>
+            <p>Numquam deleniti voluptate a deserunt sit, ipsam rem alias nesciunt.</p>
+            <p>Voluptas cupiditate error quo aut rerum similique cumque consequatur quidem?</p>
+            <p>Minus accusantium officiis, eum sequi voluptate quia ratione ipsum officia!</p>
+            <p>Numquam quae autem libero ducimus repellat officia minus perspiciatis accusantium.</p>
+            <p>Ratione ipsa harum distinctio, nobis doloremque rem. Debitis, unde vel.</p>
+            <p>Quo, quidem voluptate ipsa recusandae eligendi nobis deleniti qui? Sunt!</p>
+            <p>Similique quasi dicta officiis quidem asperiores architecto mollitia, facilis voluptates?</p>
+            <p>Cupiditate reprehenderit ipsam saepe cum dignissimos dicta deleniti, perferendis cumque?</p>
+            <p>Ex, omnis voluptatem dolore incidunt nesciunt ipsa cumque sed cupiditate.</p>
+            <p>Eligendi corrupti amet maiores dicta asperiores culpa, optio ut quo.</p>
+            <p>Assumenda, reprehenderit fuga. Ducimus aliquam voluptatum nesciunt qui porro sed?</p>
+            <p>Id hic illum, optio nisi voluptates sint ea libero sit.</p>
+            <p>Vero iure nihil magnam ullam dolores, quas eveniet quidem error!</p>
+            <p>Laboriosam repellat voluptate labore quas minus a dicta neque architecto.</p>
+            <p>Laudantium possimus a temporibus veniam iusto blanditiis provident perferendis molestiae.</p>
+            <p>Deleniti illum ut illo hic ipsa repellat officia soluta alias!</p>
+            <p>Earum voluptatem voluptatum sequi perferendis, placeat vero repellat? Fugiat, velit.</p>
+            <p>Voluptatem sit fugiat dicta quaerat quisquam ullam corporis debitis aperiam?</p>
+            <p>Placeat voluptatibus, doloremque accusamus reprehenderit dolore porro ex? In, voluptatum?</p>
+            <p>Commodi voluptatibus expedita fugit reiciendis illum voluptatem blanditiis laudantium ut.</p>
+            <p>At qui officia hic animi dicta placeat ipsum nisi temporibus.</p>
+            <p>Fugiat aut eveniet beatae quos quaerat esse dolore, consequuntur recusandae?</p>
+            <p>Eum quibusdam debitis animi tempora repellendus ut quasi alias nemo.</p>
+            <p>Animi, exercitationem! Inventore ab, dignissimos et tenetur obcaecati earum enim!</p>
+            <p>Aliquid ducimus quo culpa omnis! Cumque consequatur adipisci saepe quis!</p>
+            <p>Minima cumque ab fugiat hic, nemo iusto quasi provident at.</p>
+            <p>Ducimus cupiditate ex repudiandae? Soluta consectetur consequatur tempora hic. Ipsum!</p>
+            <p>Magni ipsa animi atque nihil consequatur id veritatis in vero!</p>
+            <p>Repellat odio dolorum minima odit quisquam, aliquid fuga quos magni?</p>
+            <p>Blanditiis explicabo aperiam aliquam esse reprehenderit eaque, nam repellendus voluptas!</p>
+            <p>Quasi, maxime? Tempora at nisi eligendi necessitatibus, rem ut. Repellendus.</p>
+            <p>Laborum impedit quaerat repellendus quod laudantium iste iusto dolor inventore.</p>
+            <p>Quae eaque iusto vitae a minus porro assumenda. Omnis, labore?</p>
 
         </div>
     </div>
     <!-- script of font awesome -->
     <script src="https://kit.fontawesome.com/be607db95d.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
