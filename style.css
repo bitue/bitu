@@ -1,0 +1,36 @@
+div#slide {
+    position: fixed;
+    height: auto;
+	z-index: 9;
+}
+.main-content.bg-gray-400.flex-grow {
+    position: absolute;
+    right: 0;
+    width: 81%;
+    padding: 0px 20px;
+	overflow: hidden;
+	
+}
+@media (max-width: 767px){
+	.main-content.bg-gray-400.flex-grow {
+	width: 100%;
+	}
+}
+/*
+@media (min-width: 768px) and (max-width: 979px) {
+	.main-content.bg-gray-400.flex-grow {
+	width: 100%;
+	}
+}
+*/
+
+@media (min-width: 768px) and (max-width: 1990px) { 
+	.main-content.bg-gray-400.flex-grow {
+		position: absolute;
+		right: 0;
+		max-width: 100%;
+		padding: 0px 20px;
+		overflow: hidden;
+		width: calc(248px + 99vw - 498px) !important;
+	}
+ }
